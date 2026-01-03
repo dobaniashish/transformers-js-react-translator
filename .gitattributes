@@ -1,0 +1,16 @@
+# Auto detect text files and perform LF normalization
+# text=auto lets Git guess if a file is text or binary
+* text=auto eol=lf
+
+# Explicitly declare common binary file types as binary.
+*.gif binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.png binary
+*.ico binary
+*.ttf binary
+*.otf binary
+*.eot binary
+*.woff binary
+*.woff2 binary
